@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554CC1A419BFBFE60068AA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CC1A319BFBFE60068AA10 /* Foundation.framework */; };
+		554CC1A619BFBFE60068AA10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CC1A519BFBFE60068AA10 /* CoreGraphics.framework */; };
+		554CC1A819BFBFE60068AA10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CC1A719BFBFE60068AA10 /* UIKit.framework */; };
+		554CC1AE19BFBFE60068AA10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554CC1AC19BFBFE60068AA10 /* InfoPlist.strings */; };
+		554CC1B019BFBFE60068AA10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CC1AF19BFBFE60068AA10 /* main.m */; };
+		554CC1B419BFBFE60068AA10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CC1B319BFBFE60068AA10 /* AppDelegate.m */; };
+		554CC1B719BFBFE60068AA10 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554CC1B519BFBFE60068AA10 /* Main_iPhone.storyboard */; };
+		554CC1BA19BFBFE60068AA10 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554CC1B819BFBFE60068AA10 /* Main_iPad.storyboard */; };
+		554CC1BD19BFBFE60068AA10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CC1BC19BFBFE60068AA10 /* ViewController.m */; };
+		554CC1BF19BFBFE60068AA10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554CC1BE19BFBFE60068AA10 /* Images.xcassets */; };
+		554CC1C619BFBFE60068AA10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CC1C519BFBFE60068AA10 /* XCTest.framework */; };
+		554CC1C719BFBFE60068AA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CC1A319BFBFE60068AA10 /* Foundation.framework */; };
+		554CC1C819BFBFE60068AA10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CC1A719BFBFE60068AA10 /* UIKit.framework */; };
+		554CC1D019BFBFE60068AA10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554CC1CE19BFBFE60068AA10 /* InfoPlist.strings */; };
+		554CC1D219BFBFE60068AA10 /* IgothereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CC1D119BFBFE60068AA10 /* IgothereTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554CC1C919BFBFE60068AA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554CC19819BFBFE60068AA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554CC19F19BFBFE60068AA10;
+			remoteInfo = Igothere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		554CC1A019BFBFE60068AA10 /* Igothere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Igothere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		554CC1A319BFBFE60068AA10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		554CC1A519BFBFE60068AA10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		554CC1A719BFBFE60068AA10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		554CC1AB19BFBFE60068AA10 /* Igothere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Igothere-Info.plist"; sourceTree = "<group>"; };
+		554CC1AD19BFBFE60068AA10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		554CC1AF19BFBFE60068AA10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		554CC1B119BFBFE60068AA10 /* Igothere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Igothere-Prefix.pch"; sourceTree = "<group>"; };
+		554CC1B219BFBFE60068AA10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		554CC1B319BFBFE60068AA10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		554CC1B619BFBFE60068AA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		554CC1B919BFBFE60068AA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		554CC1BB19BFBFE60068AA10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		554CC1BC19BFBFE60068AA10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		554CC1BE19BFBFE60068AA10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		554CC1C419BFBFE60068AA10 /* IgothereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgothereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554CC1C519BFBFE60068AA10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		554CC1CD19BFBFE60068AA10 /* IgothereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IgothereTests-Info.plist"; sourceTree = "<group>"; };
+		554CC1CF19BFBFE60068AA10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		554CC1D119BFBFE60068AA10 /* IgothereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IgothereTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554CC19D19BFBFE60068AA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CC1A619BFBFE60068AA10 /* CoreGraphics.framework in Frameworks */,
+				554CC1A819BFBFE60068AA10 /* UIKit.framework in Frameworks */,
+				554CC1A419BFBFE60068AA10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554CC1C119BFBFE60068AA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CC1C619BFBFE60068AA10 /* XCTest.framework in Frameworks */,
+				554CC1C819BFBFE60068AA10 /* UIKit.framework in Frameworks */,
+				554CC1C719BFBFE60068AA10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554CC19719BFBFE60068AA10 = {
+			isa = PBXGroup;
+			children = (
+				554CC1A919BFBFE60068AA10 /* Igothere */,
+				554CC1CB19BFBFE60068AA10 /* IgothereTests */,
+				554CC1A219BFBFE60068AA10 /* Frameworks */,
+				554CC1A119BFBFE60068AA10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		554CC1A119BFBFE60068AA10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554CC1A019BFBFE60068AA10 /* Igothere.app */,
+				554CC1C419BFBFE60068AA10 /* IgothereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554CC1A219BFBFE60068AA10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				554CC1A319BFBFE60068AA10 /* Foundation.framework */,
+				554CC1A519BFBFE60068AA10 /* CoreGraphics.framework */,
+				554CC1A719BFBFE60068AA10 /* UIKit.framework */,
+				554CC1C519BFBFE60068AA10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554CC1A919BFBFE60068AA10 /* Igothere */ = {
+			isa = PBXGroup;
+			children = (
+				554CC1B219BFBFE60068AA10 /* AppDelegate.h */,
+				554CC1B319BFBFE60068AA10 /* AppDelegate.m */,
+				554CC1B519BFBFE60068AA10 /* Main_iPhone.storyboard */,
+				554CC1B819BFBFE60068AA10 /* Main_iPad.storyboard */,
+				554CC1BB19BFBFE60068AA10 /* ViewController.h */,
+				554CC1BC19BFBFE60068AA10 /* ViewController.m */,
+				554CC1BE19BFBFE60068AA10 /* Images.xcassets */,
+				554CC1AA19BFBFE60068AA10 /* Supporting Files */,
+			);
+			path = Igothere;
+			sourceTree = "<group>";
+		};
+		554CC1AA19BFBFE60068AA10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554CC1AB19BFBFE60068AA10 /* Igothere-Info.plist */,
+				554CC1AC19BFBFE60068AA10 /* InfoPlist.strings */,
+				554CC1AF19BFBFE60068AA10 /* main.m */,
+				554CC1B119BFBFE60068AA10 /* Igothere-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		554CC1CB19BFBFE60068AA10 /* IgothereTests */ = {
+			isa = PBXGroup;
+			children = (
+				554CC1D119BFBFE60068AA10 /* IgothereTests.m */,
+				554CC1CC19BFBFE60068AA10 /* Supporting Files */,
+			);
+			path = IgothereTests;
+			sourceTree = "<group>";
+		};
+		554CC1CC19BFBFE60068AA10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554CC1CD19BFBFE60068AA10 /* IgothereTests-Info.plist */,
+				554CC1CE19BFBFE60068AA10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554CC19F19BFBFE60068AA10 /* Igothere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554CC1D519BFBFE60068AA10 /* Build configuration list for PBXNativeTarget "Igothere" */;
+			buildPhases = (
+				554CC19C19BFBFE60068AA10 /* Sources */,
+				554CC19D19BFBFE60068AA10 /* Frameworks */,
+				554CC19E19BFBFE60068AA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Igothere;
+			productName = Igothere;
+			productReference = 554CC1A019BFBFE60068AA10 /* Igothere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		554CC1C319BFBFE60068AA10 /* IgothereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554CC1D819BFBFE60068AA10 /* Build configuration list for PBXNativeTarget "IgothereTests" */;
+			buildPhases = (
+				554CC1C019BFBFE60068AA10 /* Sources */,
+				554CC1C119BFBFE60068AA10 /* Frameworks */,
+				554CC1C219BFBFE60068AA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554CC1CA19BFBFE60068AA10 /* PBXTargetDependency */,
+			);
+			name = IgothereTests;
+			productName = IgothereTests;
+			productReference = 554CC1C419BFBFE60068AA10 /* IgothereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554CC19819BFBFE60068AA10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "hubner-app.com";
+				TargetAttributes = {
+					554CC1C319BFBFE60068AA10 = {
+						TestTargetID = 554CC19F19BFBFE60068AA10;
+					};
+				};
+			};
+			buildConfigurationList = 554CC19B19BFBFE60068AA10 /* Build configuration list for PBXProject "Igothere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 554CC19719BFBFE60068AA10;
+			productRefGroup = 554CC1A119BFBFE60068AA10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554CC19F19BFBFE60068AA10 /* Igothere */,
+				554CC1C319BFBFE60068AA10 /* IgothereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554CC19E19BFBFE60068AA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CC1BA19BFBFE60068AA10 /* Main_iPad.storyboard in Resources */,
+				554CC1BF19BFBFE60068AA10 /* Images.xcassets in Resources */,
+				554CC1B719BFBFE60068AA10 /* Main_iPhone.storyboard in Resources */,
+				554CC1AE19BFBFE60068AA10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554CC1C219BFBFE60068AA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CC1D019BFBFE60068AA10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554CC19C19BFBFE60068AA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CC1BD19BFBFE60068AA10 /* ViewController.m in Sources */,
+				554CC1B419BFBFE60068AA10 /* AppDelegate.m in Sources */,
+				554CC1B019BFBFE60068AA10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554CC1C019BFBFE60068AA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CC1D219BFBFE60068AA10 /* IgothereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		554CC1CA19BFBFE60068AA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554CC19F19BFBFE60068AA10 /* Igothere */;
+			targetProxy = 554CC1C919BFBFE60068AA10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		554CC1AC19BFBFE60068AA10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554CC1AD19BFBFE60068AA10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		554CC1B519BFBFE60068AA10 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554CC1B619BFBFE60068AA10 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		554CC1B819BFBFE60068AA10 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554CC1B919BFBFE60068AA10 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		554CC1CE19BFBFE60068AA10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554CC1CF19BFBFE60068AA10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554CC1D319BFBFE60068AA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		554CC1D419BFBFE60068AA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		554CC1D619BFBFE60068AA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Igothere/Igothere-Prefix.pch";
+				INFOPLIST_FILE = "Igothere/Igothere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		554CC1D719BFBFE60068AA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Igothere/Igothere-Prefix.pch";
+				INFOPLIST_FILE = "Igothere/Igothere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		554CC1D919BFBFE60068AA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Igothere.app/Igothere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Igothere/Igothere-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IgothereTests/IgothereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		554CC1DA19BFBFE60068AA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Igothere.app/Igothere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Igothere/Igothere-Prefix.pch";
+				INFOPLIST_FILE = "IgothereTests/IgothereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554CC19B19BFBFE60068AA10 /* Build configuration list for PBXProject "Igothere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554CC1D319BFBFE60068AA10 /* Debug */,
+				554CC1D419BFBFE60068AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554CC1D519BFBFE60068AA10 /* Build configuration list for PBXNativeTarget "Igothere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554CC1D619BFBFE60068AA10 /* Debug */,
+				554CC1D719BFBFE60068AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		554CC1D819BFBFE60068AA10 /* Build configuration list for PBXNativeTarget "IgothereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554CC1D919BFBFE60068AA10 /* Debug */,
+				554CC1DA19BFBFE60068AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554CC19819BFBFE60068AA10 /* Project object */;
+}
