@@ -1,4 +1,4 @@
-//
+    //
 //  main.m
 //  Igothere
 //
@@ -14,5 +14,19 @@ int main(int argc, char * argv[])
 {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        int retVal;
+        @try {
+            retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        }
+        @catch (NSException *e) {
+            NSLog(@"CRASH: %@", e);
+            NSLog(@"Stack Trace: %@", [e callStackSymbols]);
+            
+        }
+        @finally {
+            
+        }
+        return retVal;
     }
 }
+
